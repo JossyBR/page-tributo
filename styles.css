@@ -20,6 +20,7 @@ header img {
     border: 1px solid yellow;
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -33,17 +34,25 @@ header img {
     display: flex;
     flex-direction: column;
    width: 300px;
-   height: 300px;
+   height: 350px;
 }
 
-img-card {
-    border-start-start-radius: ;
+.img-card {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 
 
 footer {
+    border-top: 1px;
     margin-top: 20px;
-    background-color: #000;
-    color: #ffff;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: oklch(0.372 0.044 257.287);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
 }
